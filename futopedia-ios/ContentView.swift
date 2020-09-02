@@ -41,8 +41,7 @@ struct ContentView: View {
         }
     }
     
-    func getImage(name: String, tag: Int
-    ) -> String {
+    func getImage(name: String, tag: Int) -> String {
         if self.selection == tag {
             return "\(name).fill"
         }
